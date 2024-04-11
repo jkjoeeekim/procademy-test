@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 
 import image from '../assets/pic21.jpg';
+import SubmitButton from './SubmitButton';
 
 const ContactForm = () => {
   return (
@@ -31,9 +32,7 @@ const ContactForm = () => {
             <input type="checkbox" defaultChecked className="checkbox mr-2 checkbox-primary" />
             <span className="label-text text-warning text-xs">Yes, I would like to receive promotional emails from Procademy</span>
           </label>
-          <button className='btn btn-primary mt-2'>
-            Submit
-          </button>
+          <SubmitButton></SubmitButton>
         </div>
       </div>
     </div>
