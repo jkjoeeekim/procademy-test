@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from 'next/link';
 import NaviBar from "./components/NaviBar";
+import HomePage from "./home/page";
 
 export default function Home() {
   return (
     <main>
-      {/* <Link href='/contact'>Contact Us</Link> */}
       <NaviBar></NaviBar>
+      <HomePage></HomePage>
     </main>
   );
 }
