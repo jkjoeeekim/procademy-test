@@ -11,7 +11,7 @@ import styles from './Home.module.css';
 const Testimonials = () => {
   return (
     <div className="carousel w-full">
-      <div id="slide1" className="carousel-item relative w-full bg-warning rounded-2xl">
+      <div id="slide1" className="carousel-item relative w-full bg-warning">
         <div className="flex flex-col w-full">
           <div className='mx-auto text-center m-5 mt-16'>
             <p className='w-1/2 text-6xl font-extrabold'>
@@ -34,7 +34,7 @@ const Testimonials = () => {
           <a href="#slide2" className="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide2" className="carousel-item relative w-full bg-warning rounded-2xl">
+      <div id="slide2" className="carousel-item relative w-full bg-warning">
         <div className="w-full flex flex-col">
           <div className="flex flex-col w-full">
           <div className='mx-auto text-center m-5 mt-16'>
@@ -58,7 +58,7 @@ const Testimonials = () => {
           <a href="#slide3" className="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide3" className="carousel-item relative w-full bg-warning rounded-2xl">
+      <div id="slide3" className="carousel-item relative w-full bg-warning">
         <div className="w-full flex flex-col">
           <div className="flex flex-col w-full">
           <div className='mx-auto text-center m-5 mt-16'>
@@ -82,7 +82,7 @@ const Testimonials = () => {
           <a href="#slide4" className="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide4" className="carousel-item relative w-full bg-warning rounded-2xl">
+      <div id="slide4" className="carousel-item relative w-full bg-warning">
         <div className="w-full flex flex-col">
           <div className="flex flex-col w-full">
           <div className='mx-auto text-center m-5 mt-16'>
