@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 import image from '../assets/pic21.jpg';
 
@@ -6,7 +7,7 @@ const ContactForm = () => {
   return (
     <div className='flex flex-row place-items-center bg-zinc-300'>
       <div className='w-1/2'>
-        <img src={image.src} className=''></img>
+        <Image width={600} height={600} alt='Pic' className='' src={image.src}></Image>
       </div>
       <div className='w-1/2 flex flex-col items-center'>
         <div className='form-control w-2/3'>

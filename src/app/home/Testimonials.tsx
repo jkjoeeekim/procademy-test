@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 import image1 from '../assets/pic9.jpg'
 import image2 from '../assets/pic11.jpg'
@@ -19,7 +20,7 @@ const Testimonials = () => {
             </p>
           </div>
           <div className='flex flex-row place-content-center m-5 mb-16'>
-            <img src={image1.src} className='mask mask-hexagon w-44 mr-10'></img>
+            <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-10' src={image1.src}></Image>
             <div className='w-1/3 flex items-center'>
               <p className='text-center text-xl'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
@@ -50,7 +51,7 @@ const Testimonials = () => {
                 totam voluptas nostrum quisquam eum porro a pariatur veniam.
               </p>
             </div>
-            <img src={image2.src} className='mask mask-hexagon w-44 ml-10'></img>
+            <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-10' src={image2.src}></Image>
           </div>
         </div>
         </div>        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -67,7 +68,7 @@ const Testimonials = () => {
             </p>
           </div>
           <div className='flex flex-row place-content-center m-5 mb-16'>
-            <img src={image3.src} className='mask mask-hexagon w-44 mr-10'></img>
+            <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-10' src={image3.src}></Image>
             <div className='w-1/3 flex items-center'>
               <p className='text-center text-xl'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
@@ -98,7 +99,7 @@ const Testimonials = () => {
                 totam voluptas nostrum quisquam eum porro a pariatur veniam.
               </p>
             </div>
-            <img src={image4.src} className='mask mask-hexagon w-44 ml-10'></img>
+            <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-10' src={image4.src}></Image>
           </div>
         </div>
         </div>        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
