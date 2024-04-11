@@ -26,11 +26,11 @@ const ContactForm = () => {
             Email
             <input type='text' placeholder='example@procademy.com' className='text-neutral grow'></input>
           </label>
-          <label className="label cursor-pointer justify-start">
-            <input type="checkbox" defaultChecked className="checkbox mt-5 mr-2 checkbox-primary" />
+          <label className="label cursor-pointer mt-2 justify-start">
+            <input type="checkbox" defaultChecked className="checkbox mr-2 checkbox-primary" />
             <span className="label-text text-warning text-xs">Yes, I would like to receive promotional emails from Procademy</span>
           </label>
-          <button className='btn btn-primary mt-5'>
+          <button className='btn btn-primary mt-2'>
             Submit
           </button>
         </div>
