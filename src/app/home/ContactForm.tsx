@@ -32,7 +32,7 @@ const ContactForm = () => {
             <input type="checkbox" defaultChecked className="checkbox mr-2 checkbox-primary" />
             <span className="label-text text-warning text-xs">Yes, I would like to receive promotional emails from Procademy</span>
           </label>
-          <SubmitButton></SubmitButton>
+          {/* <SubmitButton></SubmitButton> */}
         </div>
       </div>
     </div>
