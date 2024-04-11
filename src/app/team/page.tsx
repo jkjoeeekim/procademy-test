@@ -1,8 +1,12 @@
 import React from 'react'
+import NaviBar from '../components/NaviBar'
 
 const TeamPage = () => {
   return (
-    <div>TeamPage</div>
+    <div>
+      <NaviBar></NaviBar>
+      TeamPage
+    </div>
   )
 }
 

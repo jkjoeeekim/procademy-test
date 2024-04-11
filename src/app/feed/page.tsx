@@ -1,9 +1,13 @@
 import React from 'react'
 import IgFeed from '../components/IgFeed'
+import NaviBar from '../components/NaviBar'
 
 const FeedPage = () => {
   return (
-    <IgFeed></IgFeed>
+    <div>
+      <NaviBar></NaviBar>
+      <IgFeed></IgFeed>
+    </div>
   )
 }
 
