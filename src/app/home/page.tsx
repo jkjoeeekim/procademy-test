@@ -1,13 +1,15 @@
+'use client';
 import React from 'react'
-import IgFeed from '../components/IgFeed'
+import HeroPicture from './HeroPicture';
+import Testimonials from './Testimonials';
 
 const HomePage = () => {
   return (
     <div>
-      HomePage
-      <IgFeed></IgFeed>
+      <HeroPicture></HeroPicture>
+      <Testimonials></Testimonials>
     </div>
   )
-}
+};
 
 export default HomePage
