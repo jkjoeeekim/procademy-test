@@ -15,7 +15,7 @@ import image10 from '../assets/pic3.jpg'
 import styles from './Home.module.css'
 
 let topLayerClassName = 'mask mask-hexagon sm:w-32 sm:m-1 md:w-48 md:m-2 lg:w-64 lg:m-4';
-let otherLayerClassName = 'mask mask-hexagon sm:w-32 sm:m-1 sm:-mt-16 md:w-48 md:m-2 md:-mt-20 lg:w-64 lg:-mt-24 lg:m-4';
+let otherLayerClassName = 'mask mask-hexagon sm:w-32 sm:m-1 sm:-mt-12 md:w-48 md:m-2 md:-mt-20 lg:w-64 lg:-mt-24 lg:m-4';
 let topLayerEmptyDiv = 'mask mask-hexagon sm:w-32 sm:m-1 md:w-48 md:m-2 lg:w-64 lg:m-4';
 let otherLayerEmptyDiv = 'mask mask-hexagon sm:w-32 sm:m-1 md:w-48 md:m-2 lg:w-64 lg:m-4';
 
