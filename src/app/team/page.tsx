@@ -5,11 +5,13 @@ import TeamMembers from './TeamMembers'
 
 const TeamPage = () => {
   return (
-    <div className='flex flex-col h-screen justify-between'>
+    <main className=''>
       <NaviBar></NaviBar>
+      <div className='flex flex-col h-screen justify-between'>
       <TeamMembers></TeamMembers>
       <Footer></Footer>
-    </div>
+      </div>
+    </main>
   )
 }
 
