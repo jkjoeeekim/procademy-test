@@ -24,7 +24,7 @@ const ContactForm = () => {
             Last Name
             <input type='text' placeholder='Smith' className='text-neutral grow'></input>
           </label>
-          <label className='input input-bordered input-secondary text-warning mt-5 rounded-none bg-slate-200 gap-20 label'>
+          <label className='input input-bordered input-secondary text-warning mt-5 rounded-none bg-slate-200 md:gap-10 lg:gap-20 label'>
             Email
             <input type='text' placeholder='example@procademy.com' className='text-neutral grow'></input>
           </label>
