@@ -10,7 +10,7 @@ const MissionPage = () => {
   return (
     <div className='flex flex-col h-screen justify-between'>
       <NaviBar></NaviBar>
-      <div className='min-h-[600px] max-h-[600px] min-w-[500px] max-w-[500px] bg-white m-auto'>
+      <div className='min-h-[600px] max-h-[600px] min-w-[500px] max-w-[500px] bg-white m-auto rounded-sm border-warning border-4'>
         <div className='flex flex-row place-content-between'>
           <Image width={175} height={175} src={image.src} className='mask mask-hexagon ml-4' alt='Picture of Procademy Founder'></Image>
           <div className='m-auto'>
