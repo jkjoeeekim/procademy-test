@@ -15,15 +15,15 @@ const Testimonials = () => {
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full bg-warning">
           <div className="flex flex-col w-full">
-            <div className='mx-auto text-center m-5 mt-16'>
-              <p className='w-1/2 text-6xl font-extrabold'>
+            <div className='mx-auto text-center m-5 mt-5'>
+              <p className='w-1/2 text-6xl tracking-wider font-extrabold'>
                 TESTIMONIALS
               </p>
             </div>
-            <div className='flex flex-row place-content-center m-5 mb-16'>
-              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-10' src={image1.src}></Image>
+            <div className='flex flex-row place-content-center m-5 mb-5'>
+              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-20' src={image1.src}></Image>
               <div className='w-1/3 flex items-center'>
-                <p className='text-center text-xl'>
+                <p className='text-center text-md'>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
                   error amet numquam iure provident voluptate esse quasi, veritatis
                   totam voluptas nostrum quisquam eum porro a pariatur veniam.
@@ -39,20 +39,20 @@ const Testimonials = () => {
         <div id="slide2" className="carousel-item relative w-full bg-warning">
           <div className="w-full flex flex-col">
             <div className="flex flex-col w-full">
-            <div className='mx-auto text-center m-5 mt-16'>
-              <p className='w-1/2 text-6xl font-extrabold'>
+            <div className='mx-auto text-center m-5 mt-5'>
+              <p className='w-1/2 text-6xl tracking-wider font-extrabold'>
                 TESTIMONIALS
               </p>
             </div>
-            <div className='flex flex-row place-content-center m-5 mb-16'>
+            <div className='flex flex-row place-content-center m-5 mb-5'>
               <div className='w-1/3 flex items-center'>
-                <p className='text-center text-xl'>
+                <p className='text-center text-md'>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
                   error amet numquam iure provident voluptate esse quasi, veritatis
                   totam voluptas nostrum quisquam eum porro a pariatur veniam.
                 </p>
               </div>
-              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 ml-10' src={image2.src}></Image>
+              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 ml-20' src={image2.src}></Image>
             </div>
           </div>
           </div>
@@ -64,15 +64,15 @@ const Testimonials = () => {
         <div id="slide3" className="carousel-item relative w-full bg-warning">
           <div className="w-full flex flex-col">
             <div className="flex flex-col w-full">
-            <div className='mx-auto text-center m-5 mt-16'>
-              <p className='w-1/2 text-6xl font-extrabold'>
+            <div className='mx-auto text-center m-5 mt-5'>
+              <p className='w-1/2 text-6xl tracking-wider font-extrabold'>
                 TESTIMONIALS
               </p>
             </div>
-            <div className='flex flex-row place-content-center m-5 mb-16'>
-              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-10' src={image3.src}></Image>
+            <div className='flex flex-row place-content-center m-5 mb-5'>
+              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 mr-20' src={image3.src}></Image>
               <div className='w-1/3 flex items-center'>
-                <p className='text-center text-xl'>
+                <p className='text-center text-md'>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
                   error amet numquam iure provident voluptate esse quasi, veritatis
                   totam voluptas nostrum quisquam eum porro a pariatur veniam.
@@ -89,20 +89,20 @@ const Testimonials = () => {
         <div id="slide4" className="carousel-item relative w-full bg-warning">
           <div className="w-full flex flex-col">
             <div className="flex flex-col w-full">
-            <div className='mx-auto text-center m-5 mt-16'>
-              <p className='w-1/2 text-6xl font-extrabold'>
+            <div className='mx-auto text-center m-5 mt-5'>
+              <p className='w-1/2 text-6xl tracking-wider font-extrabold'>
                 TESTIMONIALS
               </p>
             </div>
-            <div className='flex flex-row place-content-center m-5 mb-16'>
+            <div className='flex flex-row place-content-center m-5 mb-5'>
               <div className='w-1/3 flex items-center'>
-                <p className='text-center text-xl'>
+                <p className='text-center text-md'>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
                   error amet numquam iure provident voluptate esse quasi, veritatis
                   totam voluptas nostrum quisquam eum porro a pariatur veniam.
                 </p>
               </div>
-              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 ml-10' src={image4.src}></Image>
+              <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-44 ml-20' src={image4.src}></Image>
             </div>
           </div>
           </div>

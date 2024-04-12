@@ -7,9 +7,9 @@ const TeamPage = () => {
   return (
     <main className=''>
       <NaviBar></NaviBar>
-      <div className='flex flex-col h-screen justify-between'>
-      <TeamMembers></TeamMembers>
-      <Footer></Footer>
+      <div className=''>
+        <TeamMembers></TeamMembers>
+        <Footer></Footer>
       </div>
     </main>
   )
