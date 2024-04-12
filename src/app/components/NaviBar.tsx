@@ -11,11 +11,11 @@ const NaviBar = () => {
   return (
     <div className='navbar place-content-around sticky top-0 z-10 bg-base-300 h-32'>
       <div className=''>
-        <Link href='/mission' className='btn btn-ghost rounded-sm'>OUR MISSION</Link>
-        <Link href='/feed' className='btn btn-ghost rounded-sm'>EVENTS</Link>
+        <Link href='/mission' className='btn btn-ghost font-bold rounded-sm'>OUR MISSION</Link>
+        <Link href='/feed' className='btn btn-ghost font-bold rounded-sm'>EVENTS</Link>
       </div>
       <div className=''>
-        <Link href='/' className='btn btn-ghost rounded-sm text-3xl tracking-wider'>
+        <Link href='/' className='btn btn-ghost font-bold rounded-sm text-3xl tracking-wider'>
           PROCADEMY
           <Image width={320} height={320} alt='Pic' className='w-9' src={icon2.src}></Image>
           {/* <svg className="w-11 h-11 fill-yellow-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="yellow-200">
@@ -24,8 +24,8 @@ const NaviBar = () => {
         </Link>
       </div>
       <div className=''>
-        <Link href='/team' className='btn btn-ghost rounded-sm'>COACHES</Link>
-        <Link href='/contact' className='btn rounded-sm btn-error'>CONTACT</Link>
+        <Link href='/team' className='btn btn-ghost font-bold rounded-sm'>COACHES</Link>
+        <Link href='/contact' className='btn font-bold rounded-sm btn-error'>CONTACT</Link>
       </div>
     </div>
   )
