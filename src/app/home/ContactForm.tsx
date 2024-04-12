@@ -10,7 +10,7 @@ const ContactForm = () => {
       <div className='w-1/2'>
         <Image width={600} height={600} alt='Pic' className='' src={image.src}></Image>
       </div>
-      <div className='w-1/2 flex flex-col items-center'>
+      <div className='w-1/2 flex flex-col items-center mt-5'>
         <div className='form-control w-2/3'>
           <div className='text-neutral'>
             <p className='font-extrabold text-4xl text-center'>Don't miss a beat!</p>
