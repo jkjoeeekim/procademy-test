@@ -6,7 +6,7 @@ import image from '../assets/anti.png';
 
 const Sponsors = () => {
   return (
-    <div className='flex flex-col place-content-evenly mt-10 mb-10 p-10 bg-white'>
+    <div className='flex flex-col place-content-evenly mt-10 mb-10 p-10 bg-white max-w-screen-xl m-auto'>
       <div className='mb-5'>
         <p className='text-2xl font-bold text-warning'>PROUD SPONSORS</p>
       </div>

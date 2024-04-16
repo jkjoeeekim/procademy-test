@@ -11,7 +11,7 @@ import styles from './Home.module.css';
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className='max-w-screen-xl m-auto'>
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full bg-warning">
           <div className="flex flex-col w-full">

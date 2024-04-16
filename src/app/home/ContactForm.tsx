@@ -6,7 +6,7 @@ import SubmitButton from './SubmitButton';
 
 const ContactForm = () => {
   return (
-    <div className='flex flex-row place-items-center bg-zinc-300'>
+    <div className='flex flex-row place-items-center bg-zinc-300 max-w-screen-xl m-auto'>
       <div className='w-1/2'>
         <Image width={600} height={600} alt='Pic' className='' src={image.src}></Image>
       </div>
