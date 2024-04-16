@@ -9,7 +9,7 @@ import iconsvg from '../assets/light.svg';
 
 const NaviBar = () => {
   return (
-    <div className='navbar place-content-around sticky top-0 z-10 bg-base-300 h-32'>
+    <div className='navbar place-content-around sticky top-0 z-10 bg-base-300 h-32 text-white'>
       <div className=''>
         <Link href='/mission' className='btn btn-ghost font-bold rounded-sm'>OUR MISSION</Link>
         <Link href='/feed' className='btn btn-ghost font-bold rounded-sm'>EVENTS</Link>
