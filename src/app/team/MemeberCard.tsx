@@ -11,7 +11,7 @@ import MemberSocialLinks from './MemberSocialLinks';
 
 const MemeberCard = () => {
   return (
-    <div className='flex flex-row mt-10 mb-10 border-b-4 border-t-4 border-slate-400 max-w-screen-lg m-auto bg-base-300'>
+    <div className='flex flex-row mt-10 mb-10 border-b-4 border-t-4 border-slate-400 max-w-screen-lg m-auto bg-base-300 text-white'>
       <div className='w-1/2 p-2 mt-2 mb-2 border-l-4 border-yellow-400 flex flex-row place-content-center'>
         <Image className='mask mask-hexagon' width={175} height={175} src={image.src} alt='Basketball Coach'></Image>
       </div>
