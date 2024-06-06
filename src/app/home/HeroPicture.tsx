@@ -51,17 +51,6 @@ const HeroPicture = () => {
         <div className={otherLayerEmptyDiv}></div>
       </div>
     </div>
-    // <div className='flex flex-col'>
-    //   <div className='flex flex-row place-content-center'>
-    //     <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-80 m-4' src={image1.src}></Image>
-    //     <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-80 m-4' src={image2.src}></Image>
-    //   </div>
-    //   <div className='flex flex-row place-content-center'>
-    //     <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-80 -mt-28 m-4' src={image3.src}></Image>
-    //     <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-80 -mt-28 m-4' src={image4.src}></Image>
-    //     <Image width={320} height={320} alt='Pic' className='mask mask-hexagon w-80 -mt-28 m-4' src={image5.src}></Image>
-    //   </div>
-    // </div>
   )
 }
 
