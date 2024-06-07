@@ -8,7 +8,7 @@ import Sponsors from './Sponsors';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='h-auto'>
       <div className='mt-10 mb-10'>
         <HeroPicture></HeroPicture>
       </div>
